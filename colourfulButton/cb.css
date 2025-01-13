@@ -1,0 +1,34 @@
+body{
+    background: black;
+    font-family:monospace;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+.btn-border{
+  background: linear-gradient(120deg,red,yellow,blue,green,pink,purple,brown,orange);
+  padding: 3px;
+  border-radius: 3px;
+}
+
+#btn{
+    border:none;
+    background-color: black;
+    color:white;
+    padding:1em 1.5em;
+    font-family:inherit;
+    letter-spacing: .1em;
+}
+
+.btn-border:hover{
+    background: linear-gradient(240deg,red,yellow,blue,green,pink,purple,brown,orange);
+}
+
+.btn-border:hover #btn{
+    color:burlywood;
+    padding:1.2em 1.7em;
+}
